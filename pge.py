@@ -5,7 +5,7 @@ import requests
 class PGEOutages(DeltaScraper):
     url = "https://apim.pge.com/cocoutage/outages/getOutagesRegions?regionType=city&expand=true"
     owner = "ktla5"
-    repo = "pge-power-outages"
+    repo = "output-power-outages"
     filepath = "pge-outages.json"
 
     record_key = "outageNumber"
