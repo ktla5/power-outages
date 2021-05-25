@@ -5,8 +5,8 @@ import requests
 class SCEOutages(DeltaScraper):
     url = "https://prodms.dms.sce.com/outage/v1/power/outage"
     owner = "ktla5"
-    repo = "output-power-outages"
-    filepath = "sce-outages.json"
+    repo = "power-outages"
+    filepath = "data/sce-outages.json"
 
     record_key = "incidentId"
     noun = "incident"
